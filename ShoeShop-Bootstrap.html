@@ -5,11 +5,14 @@
     <title>Bootstrap 4 Website Example</title>
     <meta charset="utf-16">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 </head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/ulg/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <style>
     .carousel-inner img {
         width: 100%;
@@ -17,35 +20,117 @@
     }
 
     .h3 {
-        font-family: vivaldi;
+        font-family: 'Segoe UI';
+        padding-top: 10px;
     }
-  
+
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+
+    .carousel-multi-item-2 .card img {
+        border-radius: 2px;
+    }
+
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .f2 {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+
+    }
+
+    .f1 {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .b1 {
+        padding: 10px;
+    }
+
+    .t1 {
+        position: absolute;
+        bottom: 80px;
+        right: 180px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .t3 {
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: 180px;
+        left: 180px;
+
+
+    }
+
+    .fa-star {
+        text-align: center;
+        color: #EF9701;
+    }
+
+    .icon {
+        padding: 10px;
+        background: #FAFAFA;
+        color: black;
+        min-width: 50px;
+        text-align: center;
+    }
+
+    .fa-twitter{
+
+        padding: 10px;
+     
+        color:black;
+        min-width: 50px;
+        text-align: center;
+    }
 </style>
-</head>
+
 
 <body>
-    <div class="container- fluid" style="background-color: #011236; color:#FAFAFA;"></div>
+    <!-- The top navigation bar-->
 
-    </div>
     <div class="container-fluid" style="background-color: #011236; color:#FAFAFA;">
-        <nav class="navbar navbar-expand-sm bg-transparent navbar-dark">
 
+        <nav class="navbar navbar-expand-sm bg-transparent justify-content-center">
 
-            <a href="#" class="navbar-brand">
+            <div href="#" class="navbar-brand">
                 <img src="Logo.jpg" height="55" width="75" alt="Logo">
-            </a>
+            </div>
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <label class="nav-link" href="#">Home</label>
+                    <label class="nav-link" href="#">0112754320</label>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <label class="nav-link" href="#">Futstyle@gmail.com</label>
                 </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        What we do
+                <li class="nav-item dropdown" style="color:#FAFAFA">
+                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                        data-toggle="dropdown">
+                        English
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Link 1</a>
@@ -54,6 +139,16 @@
                     </div>
                 </li>
             </ul>
+            <nav class="navbar navbar-expand-sm  navbar-dark navbar-nav ml-auto" style="background-color: #011236;">
+                <li class="nav-item">
+                    <label class="nav-link" href="#">A special shipping service available due to Covid19. </label>
+                </li>
+
+                <li class="nav-item">
+                    <label class="nav-link" href="#">Learn More... </label>
+                </li>
+
+            </nav>
 
             <nav class="navbar navbar-expand-sm  navbar-dark navbar-nav ml-auto" style="background-color: #011236;">
                 <form class="form-inline" action="/action_page.php">
@@ -73,9 +168,100 @@
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-<!-- The navigation bar inside the photo----The first carousel-->
-                
-                  </div>
+                <!-- The navigation bar inside the photo----The first carousel-->
+                <div class="container-fluid" style="background-color: #CC021C;color:#FAFAFA;">
+
+                    <div class="container" style="background-color: #CC021C;color:#FAFAFA;">
+                        <nav class="navbar navbar-expand-sm bg-transparent justify-content-center">
+
+                            <ul class="navbar-nav">
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        HOME
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        COLLECTION
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        SHOES
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BOOTS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        CLIMBINGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BLOGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </nav>
+
+
+
+
+                    </div>
+                </div>
                 <img src="Shoe.Main.jpg" alt="Another example headline" width="2500" height="500">
 
                 <div class="carousel-caption">
@@ -86,7 +272,99 @@
                     <br><br><br>
                 </div>
             </div>
+
+            <!-- The navigation bar inside the photo----The second carousel-->
             <div class="carousel-item">
+                <div class="container-fluid" style="background-color: #CC021C;color:#FAFAFA;">
+
+                    <div class="container" style="background-color: #CC021C;color:#FAFAFA;">
+                        <nav class="navbar navbar-expand-sm bg-transparent justify-content-center">
+
+                            <ul class="navbar-nav">
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        HOME
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        COLLECTION
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        SHOES
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BOOTS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        CLIMBINGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BLOGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+
                 <img src="Shoe main edited.png" alt="Another example headline" width="2500" height="500">
                 <div class="carousel-caption">
                     <h3>Mega Sale</h3>
@@ -96,7 +374,99 @@
                     <br><br><br>
                 </div>
             </div>
+
+            <!-- The navigation bar inside the photo----The third carousel-->
             <div class="carousel-item">
+                <div class="container-fluid" style="background-color: #CC021C;color:#FAFAFA;">
+
+                    <div class="container" style="background-color: #CC021C;color:#FAFAFA;">
+                        <nav class="navbar navbar-expand-sm bg-transparent justify-content-center">
+
+                            <ul class="navbar-nav">
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        HOME
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        COLLECTION
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        SHOES
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BOOTS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        CLIMBINGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+
+
+                                <li class="nav-item dropdown" style="color:#FAFAFA">
+                                    <a class="nav-link dropdown-toggle" style="color:#FAFAFA" href="#" id="navbardrop"
+                                        data-toggle="dropdown">
+                                        BLOGS
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Link 1</a>
+                                        <a class="dropdown-item" href="#">Link 2</a>
+                                        <a class="dropdown-item" href="#">Link 3</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+                </div>
+
                 <img src="Shoemain4.jpg" alt="Another example headline" width="2500" height="500">
                 <div class="carousel-caption">
                     <h3>Mega Sale</h3>
@@ -115,52 +485,756 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-<br><br>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
                 <div class="row">
-                    <div class="carousel-caption">
-                        <h6 >Hiking Boots </h6>
-                    </div>
                     <img src="download1.jpg" alt="Responsive image" width="275" height="250" class="rounded float-left">
+                    
+
 
                 </div>
                 <br>
                 <div class="row">
                     <img src="giorgio-trovato-JqSgHDUf9_o-unsplash.jpg" alt="Responsive image" width="275" height="250"
                         class="rounded float-left">
-                        <div class="carousel-caption">
-                            <h6>Hiking Boots </h6>
-                        </div>
+                    
                 </div>
             </div>
             <div class="col-sm-6">
                 <img src="Advertisement1.jpg" alt="Responsive image" width="500" height="525"
                     class="rounded mx-auto d-block">
+                <div class="container">
+                    <div class="text-block t3">
+                        <div class="h1" style="color: #FAFAFA;"> <b> HURRY UP</b> </div>
+                        <div class="h4" style="color: #FAFAFA;"> <b> SUMMER OFFER </b> </div>
+                        <hr style="color: #FAFAFA;background-color: #FAFAFA; height:2px">
+                        <div class="h5" style="color: #FAFAFA;"> MAKE THIS SEASON <br> YOUR BEST SHOPPING <br> SEASON.
+                        </div>
+
+                        <div class="btn b2" style="background-color:#EF9701 ; color:#011236; " type="submit">SHOP
+                            NOW</div>
+
+                    </div>
+                </div>
             </div>
-    
+
             <div class="col-sm-3">
                 <div class="row">
                     <img src="imani-bahati-LxVxPA1LOVM-unsplash.jpg" alt="Responsive image" width="275" height="250"
                         class="rounded float-left">
-                        <div class="carousel-caption">
-                            <h6>Hiking Boots </h6>
-                        </div>
+                    <div class="carousel-caption">
+                        <h6></h6>
+                    </div>
                 </div>
                 <br>
                 <div class="row">
                     <img src="tanjun-shoe-v2TE01RG.jpg" alt="Responsive image" width="275" height="250"
                         class="rounded float-right">
-                        <div class="carousel-caption">
-                            <h6>Hiking Boots </h6>
-                        </div>
+                    <div class="carousel-caption">
+                        <h6></h6>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <br><br> 
+    <br><br>
+
+
+    <div class="container">
+        <h6>
+            NEW ARRIVALS
+        </h6>
+
+        <br>
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2"
+            data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev">
+                    <span class="carousel-control-prev-icon" style="background-color: #CC021C; color: #000;"></span>
+                </a>
+                <a class="carousel-control-next" href="#multi-item-example" data-slide="next">
+                    <span class="carousel-control-next-icon" style="background-color: #CC021C; color: #000;"></span>
+                </a>
+            </div>
+
+            <!--/.Controls-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="1.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">ADIDAS WHITE SNEAKERS</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$50.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="2.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">KIDS TRACK SHOE</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$45.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="3.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">ARTHUR KNIGHT SHOES</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$30.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="4.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">NIKE SPORTS SHOE</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$48.00</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="5.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">TOMMY HILFIGER CANVAS</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$80.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="6.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">REEBOK BLACK SNEAKERS</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$40.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="7.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">PUMA KING</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$43.00</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <div class="card">
+                            <img class="img-fluid" src="8.jpg" alt="Card image cap">
+                            <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                            <hr>
+                            <h6 class="text-center my-3">$62.00</h6>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
+
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+
+
+
+    </div>
+
+    <br><br>
+
+
+    <!--<div class="container">
+    <h6>
+      BEST SELLERS
+    </h6>
+-->
+    <br>
+    <div class="container-fluid f1">
+        <img src="markus-winkler-DzzzMr6mOTw-unsplash.jpg" alt="Snow" style="width:100%;">
+        <div class="container f2" style="background-color: #011236; color:#FAFAFA;">
+            <div class="text-block">
+                <div class="h3">THE SEASON BEGINS</div>
+                <hr style="background-color: #EF9701;color:#EF9701 ;">
+                <br>
+                <div class="h5" style="color:#EF9701 ;"><i>" IT'S GONE FOR GOOD WHEN IT'S GONE! SO,<br> BUY UNTIL YOUR
+                        SHOE RACK CAN'T TAKE ANYMORE. "</i></h5>
+                </div>
+                <br><br>
+                <button class="btn b1" style="background-color:#EF9701 ; color:#011236; " type="submit">VISIT
+                    NOW</button>
+
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--Creating the product gallery-->
+
+    <div class="container">
+        <h6>
+            BEST SELLERS
+        </h6>
+
+        <br><br>
+
+        <!--First Row-->
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-jd-danny-2385477.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-anastasia-zhenina-17465.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">PUMA BLACK KING</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-shane-aldendorff-786003.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">TOMMY HILFIGER BLACK</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-lukas-292999.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">ADIDAS WHITE CANVAS</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Second Row-->
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-mnz-1598505.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NIKE RED SNEAKERS</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-mnz-1598508.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-mstudio-1240892.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">ADIDAS WHITE CANVAS</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-pixabay-267301.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--Third Row-->
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-jd-danny-2385477.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-lukas-292999.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">TOMMY HILFIGER  SNEAKERS</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-athul-adhu-684152.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NEW BALANCE SHOES</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <img class="img-fluid" src="pexels-lumn-167706.jpg" alt="Card image cap">
+                    <h6 class="text-center my-3">NIKE SPORTS SHOE</h6>
+                    <hr style="color: #FAFAFA;background-color:#7F7E90 ; height:1px">
+                    <h6 class="text-center my-3">$62.00</h6>
+                    <div class="container c1" style="left: 30px;">
+                        <form class="text-center" style="text-align: center;">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <label>122 Reviews</label>
+                        </form>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-outline-dark"><span class="fa fa-shopping-cart"></span> ADD TO
+                        CART</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+
+    <!--Blogs gallery-->
+    <div class="container">
+        <h5>
+            BLOGS
+        </h5>
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="thumbnail ">
+                    <img src="tobias-mrzyk-iuqmGmst5Po-unsplash.jpg" alt="Lights" style="width:100%">
+                    <div class="text-block" style="text-align: left;">
+                        <div class="h5">HIKING BLOG POST</div>
+                        <P>10th of April 2020</P>
+                        <p><i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus aliquam metus
+                                ac placerat.
+                                Donec lacinia risus eu ante laoreet, ut pharetra odio sodales.
+                                Mauris nibh est,.</i></p>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="text-right">
+                                    9 mins
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="thumbnail ">
+                    <img src="david-marcu-VfUN94cUy4o-unsplash.jpg" alt="Lights" style="width:100%">
+                    <div class="text-block" style="text-align: left;">
+                        <div class="h5">CYCLING BLOG POST</div>
+                        <P>10th of April 2020</P>
+                        <p><i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus aliquam metus
+                                ac placerat.
+                                Donec lacinia risus eu ante laoreet, ut pharetra odio sodales.
+                                Mauris nibh est,.</i></p>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="text-right">
+                                    9 mins
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="thumbnail ">
+                    <img src="kate-joie-0cOAVdr9Arg-unsplash.jpg" alt="Lights" style="width:100%">
+                    <div class="text-block" style="text-align: left;">
+                        <div class="h5">CAMPING BLOG POST</div>
+                        <P>10th of April 2020</P>
+                        <p><i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus aliquam metus
+                                ac placerat.
+                                Donec lacinia risus eu ante laoreet, ut pharetra odio sodales.
+                                Mauris nibh est,.</i></p>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <button type="button" class="btn btn-outline-secondary">READ MORE</button>
+
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="text-right">
+                                    9 mins
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br>
+    </div>
+
+    <!--Pagination-->
+
+    <div class="container">
+        <div class="text-center">
+            <ul class="pagination justify-content-center ">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </div>
+    </div>
+  
+        <form class="text-right">
+            <i class="fas fa-twitter " ></i>
+            <i class="fas fa-facebook-f "></i>
+            <i class="fas fa-instagram "></i>
+            <i class="fas fa-youtube "></i>
+            <i class="fas fa-linkedin-in "></i>
+
+        </form>
     
-    </body>
-    
-    </html>
+
+    <br><br>
+
+    <!--Footer Menu-->
+    <div class="container-fluid" style="background-color:#CC021C ;color:#FAFAFA">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer-widget">
+                    <div class="footer-menu footer-menu--1">
+
+                        <div href="#" class="navbar-brand">
+                            <img src="Logo.jpg" height="100" width="150" alt="Logo">
+                        </div>
+                        <br><br>
+                        <form>
+
+                            <form>
+                                <form action="/action_page.php" style="max-width:500px;margin:auto">
+                                    <h6>CONTACT</h6>
+                                    <div class="input-container">
+                                        <i class="fa fa-phone icon"></i>
+                                        <input class="input-field" style="background-color: #011236; color: #FAFAFA;"
+                                            type="text" placeholder="phone" name="phone">
+                                    </div>
+
+                                    <div class="input-container">
+                                        <i class="fa fa-envelope icon"></i>
+                                        <input class="input-field" style="background-color: #011236; color: #FAFAFA;"
+                                            type="text" placeholder="Email" name="email">
+                                    </div>
+
+                                    <div class="input-container">
+                                        <i class="fa fa-home icon"></i>
+                                        <input class="input-field" style="background-color: #011236; color: #FAFAFA;"
+                                            type="text" placeholder="Home" name="Address">
+                                    </div>
+
+                                </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="footer-widget"><br><br><br><br><br><br>
+                    <div class="footer-menu footer-menu--1">
+
+                        <h6>INFORMATION</h6>
+                        <ul class="navbar-nav text-white">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Delivery </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Privacy Policy</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="footer-widget"><br><br><br><br><br><br>
+                    <div class="footer-menu footer-menu--1">
+
+                        <h6>OUR SERVICES</h6>
+                        <ul class="navbar-nav text-white">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Shipping & Returns</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Secure Shopping</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Affiliates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3">
+                <div class="footer-widget"><br><br><br><br><br><br>
+                    <div class="footer-menu footer-menu--1">
+
+                        <h6>ABOUT US</h6>
+                        <ul class="navbar-nav text-white">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Who We Are ?
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Corporate </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Country Laws</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"> Careers</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <div class="container-fluid" style="background-color: #011236; color:#FAFAFA">
+        <div class="row">
+            <p class="text text-left">@2020 Copyright </p>
+            <div class="container c1"  style="background-color: #011236;">
+                <form class="text-right">
+                    <i class="fas fa-twitter icon1 " ></i>
+                    <i class="fas fa-facebook-f icon1"></i>
+                    <i class="fas fa-instagram icon1"></i>
+                    <i class="fas fa-youtube icon1"></i>
+                    <i class="fas fa-linkedin-in icon1"></i>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
