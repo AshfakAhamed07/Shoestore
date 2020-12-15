@@ -116,4 +116,7 @@ hr {
     text-align: center;
 }
 
-
+.vl {
+    border-left: 1px solid #011236;
+    height: 500px;
+  }
