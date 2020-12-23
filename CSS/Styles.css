@@ -124,6 +124,14 @@ hr {
   .t8 {
     font-family: 'Segoe UI';
     position: absolute;
-    top: -450px;
+    top: -550px;
     left: 180px;
+}
+
+.i1 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top:-530px;
+    left: 900px;
+
 }
