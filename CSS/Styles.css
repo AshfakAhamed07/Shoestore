@@ -132,16 +132,11 @@ hr {
 .t9 {
     font-family: 'Segoe UI';
     position: absolute;
-    top: 10px;
-    left: 450px;
+    top: 0px;
+    left: 395px;
 }
 
-.t10 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top: 10px;
-    left: -150px;
-}
+
 
 
 .i1 {
