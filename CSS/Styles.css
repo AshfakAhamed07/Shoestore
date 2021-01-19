@@ -40,8 +40,10 @@ hr {
 
 .f2 {
     position: absolute;
-    top: 50%;
+    top: 33%;
     left: 7%;
+    max-width: auto;
+    height: auto;
 
 }
 
@@ -157,3 +159,4 @@ hr {
     left: 900px;
 
 }
+
