@@ -1,6 +1,8 @@
 .carousel-inner img {
     width: 1350px;
     height: 650px;
+
+    
 }
  .c1 img {
     width: 100%;
@@ -11,7 +13,7 @@
 .h3 {
     font-family: 'Segoe UI';
     padding-top: 10px;
-}
+} 
 
 .carousel-multi-item-2 .col-md-3 {
     float: left;
