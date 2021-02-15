@@ -162,3 +162,10 @@ hr {
 
 }
 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("fas fa-bars")
+}
+
+
+
+
