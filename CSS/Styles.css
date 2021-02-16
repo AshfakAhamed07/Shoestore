@@ -167,5 +167,29 @@ hr {
 }
 
 
+.footer-icons{
+    text-align: center;
 
+    
+
+      @media (min-width: 576px) {  
+        text-align: right; }
+
+        @media (min-width: 768px) { 
+            text-align: center; }
+
+}
+
+.footer-widget{
+    text-align: center;
+    
+}
+.footer-newsletter{
+    text-align: center;
+}
+.footer-icons{
+    @include media-breakpoint-up(lg) { 
+        text-align: center;
+}
+     }
 
