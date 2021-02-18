@@ -70,9 +70,7 @@ hr {
 }
 
 
-.b1 {
-    padding: 10px;
-}
+
 
 .t1 {
     position: absolute;
@@ -141,6 +139,8 @@ hr {
     text-align: center;
 }
 
+
+
 /*Used in the About us Page*/
 .vl {
     border-left: 1px solid #011236;
@@ -188,7 +188,10 @@ hr {
      height: auto;
         
     }
+ 
     
+
+
 /* Boots page*/
 .t8 {
     font-family: 'Segoe UI';
@@ -214,6 +217,55 @@ hr {
 
 
 
+
+/* Collections page*/
+
+.Ad4{
+    font-size:larger;
+     }
+  
+     @media (min-width: 768px) { 
+        .t8{
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: -450px;
+            left: 180px;        
+      }
+      .Ad4{
+        font-size: xx-large;
+         }
+      
+        }
+     
+        .Ad3{
+            font-size:smaller;
+        }
+
+        .ta {
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: -215px;
+            left: 50px;   
+            
+        }
+        @media (min-width: 768px) { 
+            .ta{
+                font-family: 'Segoe UI';
+                position: absolute;
+                top: -470px;
+                left: 250px;        
+          }
+          .Ad3{
+            font-size:xx-large;
+        }
+
+        }
+
+        .b1 {
+            padding: 10px;
+        }    
+       
+
 .i1 {
     font-family: 'Segoe UI';
     position: absolute;
@@ -222,9 +274,7 @@ hr {
 
 }
 
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("fas fa-bars")
-}
+
 
 
 
@@ -246,6 +296,10 @@ hr {
      .footer-icons{
         text-align: center;
     }
+
+
+
+
  /* Top Menu styles*/
 
  .Mycontainer{
@@ -253,4 +307,6 @@ hr {
      color:#FAFAFA;
  }    
 
-
+ .custom-toggler .navbar-toggler-icon {
+    background-image: url("fas fa-bars")
+}
