@@ -1,9 +1,18 @@
-.carousel-inner img {
-    width: 1350px;
-    height: 650px;
 
-    
+/*Carousel*/
+.carousel-inner img {
+   max-width: 100%;
+ height: auto;
 }
+@media (min-width: 1200px) { 
+    .carousel-inner img{
+        width: 1350px;
+    height: 500px;
+    }
+}
+
+
+
  .c1 img {
     width: 100%;
     height: 100%;
@@ -143,26 +152,53 @@ hr {
     border-left: 1px solid #011236;
     height: 800px;
   } 
-  
-  
-   
-
+    
 }
 
-  .t8 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top: -550px;
-    left: 180px;
-}
+  
 
+
+/* Blogs page*/
 .t9 {
     font-family: 'Segoe UI';
     position: absolute;
     top: 0px;
-    left: 395px;
+    left: 0px;
 }
 
+
+
+.t8 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: -190px;
+    left: 50px;
+   
+    
+}
+.Ad{
+    font-size:larger;
+}
+@media (min-width: 992px) { 
+    .t8{
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: -550px;
+        left: 180px;        
+  }
+
+  .h5{
+    font-size: xx-large;
+     }
+  
+    }
+    
+    .Mycontainer2 {
+        max-width: 100%;
+     height: auto;
+        
+    }
+    
 
 
 
@@ -179,19 +215,9 @@ hr {
 }
 
 
-.footer-icons{
-    text-align: center;
 
-    
 
-      @media (min-width: 576px) {  
-        text-align: right; }
-
-        @media (min-width: 768px) { 
-            text-align: center; }
-
-}
-
+/*Footer*/
 .footer-widget{
     text-align: center;
     
@@ -199,29 +225,20 @@ hr {
 .footer-newsletter{
     text-align: center;
 }
-.footer-icons{
-    @include media-breakpoint-up(lg) { 
-        text-align: center;
-}
-     }
 
-
-
-
-     .navbar-brand{
+ .navbar-brand{
         text-align: center;
      }
+    
+   
+     .footer-icons{
+        text-align: center;
+    }
+ /* Top Menu styles*/
+
+ .Mycontainer{
+    background-color: #CC021C;
+     color:#FAFAFA;
+ }    
 
 
-     /* Top Menu styles*/
-
-     .Mycontainer{
-        background-color: #CC021C;
-         color:#FAFAFA;
-     }
-
-
-     @media (min-width: 992px) { 
-
-
-      }
