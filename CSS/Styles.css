@@ -13,10 +13,6 @@
 
 
 
- .c1 img {
-    width: 100%;
-    height: 100%;
-}
 
 
 .h3 {
@@ -49,27 +45,6 @@ hr {
     transform: translate(-50%, -50%);
 }
 
-.f2 {
-    position: absolute;
-    top: 33%;
-    left: 7%;
-    max-width: auto;
-    height: auto;
-
-}
-
-.f1 {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.f1 img {
-    width: 1350px;
-    height: 650px;
-}
-
-
 
 
 .t1 {
@@ -82,45 +57,269 @@ hr {
     padding-right: 20px;
 }
 
+
+
+ /* ShoeShop Page*/
+
+ .f2 {
+    position: absolute;
+    top: 0px;
+     max-width: 93%;
+     height: auto;
+     margin-bottom: 30px;
+ 
+ }
+ @media (min-width: 768px) { /* for ipad */
+
+    .f2 {
+        position: absolute;
+        top: 60px;
+         max-width: 95%;
+         height: auto;
+         margin-bottom: 30px;
+     
+     }
+}
+@media (min-width: 992px) { /* for ipad Pro */
+
+    .f2 {
+        position: absolute;
+        top: 130px;
+         max-width: 97%;
+         height: auto;
+         margin-bottom: 30px;
+     
+     }
+}
+@media (min-width: 1200px) { /* for laptop */
+
+    .f2 {
+        position: absolute;
+        top: 200px;
+         max-width: 97.8%;
+         height: auto;
+         margin-bottom: 30px;
+     
+     }
+}
+ 
+ .f1 {
+    position: relative;
+     text-align: center;
+     color: white;
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ 
+ 
+
+
 .t3 {
     font-family: 'Segoe UI';
     position: absolute;
-    top: 180px;
-    left: 180px;
-
-
+    top: 30px;
+    left: 110px;
 }
-
 
 .t4 {
     font-family: 'Segoe UI';
     position: absolute;
     top: 130px;
-    left: 80px;
+    left: 100px;
+    
 }
 
 .t5 {
     font-family: 'Segoe UI';
     position: absolute;
     top: 430px;
-    left: 80px;
+    left: 100px;
 
 }
 
 .t6 {
     font-family: 'Segoe UI';
     position: absolute;
-    top: -350px;
-    left: 10px;
+    top: -450px;
+    left: 50px;
 }
-
 .t7 {
     font-family: 'Segoe UI';
     position: absolute;
-    top:-70px;
+    top:-120px;
+    left: 50px;
+
+}
+.text1{
+    font-size:x-large;
+}
+.text2{ 
+    font-size:large;}
+.text3{
+    font-size: medium;
+}
+.Ad4{
+    font-family: 'Segoe UI';
+     max-width: 100%;
+     height: auto;
+   
+}
+
+@media (min-width: 768px) { /* for ipad */
+    .t3{
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: 100px;
+        left: 80px;        
+  }
+  .text1{
+    font-size:xx-large;
+}
+.text2{ 
+    font-size:x-large;}
+.text3{
+    font-size:larger;
+}
+.Ad4{
+    font-family: 'Segoe UI';
+    max-width: 100%;
+    height: 430px;   
+}
+.t4{
+    top: 70px;
+    left: 30px;
+}
+.t5{
+    top: 300px;
+    left: 30px;
+}
+.t6{
+    top: -300px;
+    left: 0px;
+}
+.t7{
+    top: -60px;
+    left: 0px;
+}
+
+
+
+}
+
+@media (min-width: 992px) { /* for ipad pro */
+    .Ad4{
+        font-family: 'Segoe UI';
+        max-width: 100%;
+        height: 643px;
+        
+    }
+    .t3{
+        font-family: 'Segoe UI';
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 145px;        
+  }
+  .t4 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    
+}
+
+.t5 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 400px;
+    left: 60px;
+
+}
+
+.t6 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: -480px;
+    left: 10px;
+}
+.t7 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top:-180px;
     left: 10px;
 
 }
+
+
+}
+
+
+
+@media (min-width: 1200px) {  /* for laptops */
+    .Ad4{
+        font-family: 'Segoe UI';
+        max-width: 100%;
+        height: 643px;
+        
+    }
+    .t3{
+        font-family: 'Segoe UI';
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 200px;        
+  }
+
+.t4 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    
+}
+
+.t5 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 430px;
+    left: 100px;
+
+}
+
+.t6 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: -450px;
+    left: 50px;
+}
+.t7 {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top:-120px;
+    left: 50px;
+
+}
+
+  
+}
+
+
+.c1 img {
+    max-width: 100%;
+    height: auto;
+ justify-content: center;
+ }
+
+ .textbox{
+    max-width: 100%; 
+    height: 60px;
+ }
+
+
+
+
+
 
 
 
