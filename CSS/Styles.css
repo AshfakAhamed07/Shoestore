@@ -4,24 +4,51 @@
    max-width: 100%;
  height: auto;
 }
+
 @media (min-width: 1200px) { 
     .carousel-inner img{
         width: 1350px;
     height: 500px;
     }
 }
-
-.carousel-multi-item-2 .col-md-3 {
-    float: left;
-    width: 25%;
-    max-width: 100%;
+@media (min-width: 1920px) { 
+    .carousel-inner img{
+        width: 1920px;
+    height: 1080px;
+    }
 }
+
 
 .carousel-multi-item-2 .card img {
     border-radius: 2px;
 }
 
 
+
+
+
+
+
+@media (min-width: 768px) { /* for devices above 768px */
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+    
+}
+
+
+ 
+
+
+
+
+.c1 img {
+    max-width: 100%;
+    height: auto;
+ justify-content: center;
+ }
 
 
 /*Common Styles */
@@ -38,11 +65,7 @@
     transform: translate(-50%, -50%);
 }
 
-.c1 img {
-    max-width: 100%;
-    height: auto;
- justify-content: center;
- }
+
 
  .textbox{
     max-width: 100%; 
@@ -64,6 +87,8 @@
     min-width: 30px;
     text-align: center;
 }
+
+
 
 
 
@@ -122,6 +147,19 @@
      
      }
 }
+
+@media (min-width: 1920px) { /* for Desktop */
+
+    .f2 {
+        position: absolute;
+        top: 250px;
+        left: 500px;
+         max-width: 50%;
+         height: auto;
+         margin-bottom: 30px;
+     
+     }
+}
  
  .f1 {
     position: relative;
@@ -130,8 +168,6 @@
      max-width: 100%;
      height: auto;
  }
- 
- 
  
 
 
@@ -360,11 +396,11 @@ hr {
     font-size:larger;
 }
 @media (min-width: 992px) { 
-    .t8{
+    .t9{
         font-family: 'Segoe UI';
         position: absolute;
-        top: -550px;
-        left: 180px;        
+        top: -0px;
+        left: 0px;        
   }
 
   .Ad{
@@ -372,31 +408,60 @@ hr {
      }
   
     }
+    @media (min-width: 1200px) { 
+        .t9{
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: 0px;
+            left: 0px;        
+      }
+    
+      .Ad{
+        font-size: xx-large;
+         }
+      
+        }
+        @media (min-width: 1920px) { 
+            .t9{
+                font-family: 'Segoe UI';
+                position: absolute;
+                top: 0px;
+                left: 0px;        
+          }
+        
+          .Ad{
+            font-size: xx-large;
+             }
+          
+            }
+
+
 
     .Mycontainer2 {
         max-width: 100%;
      height: auto;
         
     }
+    
  
     
 
 
 /* Boots page*/
-.t8 {
+.t13 {
     font-family: 'Segoe UI';
     font-size:xx-small;
     position: absolute;
-    top: -200px;
-    left: 50px;
+    top: -160px;
+    left: 0px;
      
 }
-@media (min-width: 768px) { 
-    .t8{
+@media (min-width: 768px) { /* for ipad */
+    .t13{
         font-family: 'Segoe UI';
         position: absolute;
-        top: -470px;
-        left: 180px;        
+        top: -315px;
+        left: 0px;        
   }
 
   .Ad1{
@@ -404,57 +469,164 @@ hr {
      }
   
     }
-
+    @media (min-width: 992px) {  /* for ipad Pro */
+        .t13{
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: -380px;
+            left: 0px;        
+      }
+    
+      .Ad1{
+        font-size: xx-large;
+         }
+      
+        }
+    
+        @media (min-width: 1200px) {  /* for Laptops */
+            .t13{
+                font-family: 'Segoe UI';
+                position: absolute;
+                top: -500px;
+                left: 50px;        
+          }
+        
+          .Ad1{
+            font-size: xx-large;
+             }
+          
+            }
+            @media (min-width: 1920px) {  /* for Desktops*/
+                .t13{
+                    font-family: 'Segoe UI';
+                    position: absolute;
+                    top: -700px;
+                    left: 350px;        
+              }
+            
+              .Ad1{
+                font-size:xx-large;
+                 }
+              
+                }
+        
 
 
 
 /* Collections page*/
 
+.t12{
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: -150px;
+    left: 10px;        
+}
+.Ad5{
+    font-size:larger;
+     }
+
 .Ad4{
     font-size:larger;
      }
+
+     .Ad3{
+        font-size:smaller;
+    }
+
+    .ta {
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: -215px;
+        left: 50px;   
+        
+    }
   
-     @media (min-width: 768px) { 
-        .t8{
-            font-family: 'Segoe UI';
-            position: absolute;
-            top: -450px;
-            left: 180px;        
-      }
-      .Ad4{
+     @media (min-width: 768px) {  /* for ipad */
+      
+      .Ad5{
         font-size: xx-large;
          }
-      
-        }
-     
-        .Ad3{
-            font-size:smaller;
-        }
 
-        .ta {
+         .t12{
             font-family: 'Segoe UI';
             position: absolute;
-            top: -215px;
-            left: 50px;   
-            
+            top: -300px;
+            left: 20px;        
         }
-        @media (min-width: 768px) { 
-            .ta{
-                font-family: 'Segoe UI';
-                position: absolute;
-                top: -470px;
-                left: 250px;        
-          }
-          .Ad3{
-            font-size:xx-large;
-        }
-
-        }
-
-        .b1 {
-            padding: 10px;
-        }    
+        .ta{
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: -800px;
+            left: 250px;        
+      }
+      .Ad3{
+        font-size:xx-large;
        
+
+    }
+
+    .b1 {
+        padding: 10px;
+    }    
+
+        }
+
+      
+    @media (min-width: 992px) {   /* for ipad Pro*/
+        .ta{
+            font-family: 'Segoe UI';
+            position: absolute;
+            top: -1000px;
+            left: 50px;        
+      }
+      .Ad3{
+        font-size:xx-large;
+    }
+
+    .Ad5{
+        font-size: xx-large;
+         }
+
+    .b1 {
+        padding: 10px;
+    }
+    .t12{
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: -380px;
+        left: 10px;        
+  }    
+}    
+
+@media (min-width: 1200px) {  /* for Laptops */
+    .ta{
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: -1000px;
+        left: 250px;        
+  }
+  .Ad3{
+    font-size:xx-large;
+   }
+    .Ad5{
+    font-size:xx-large;
+   
+
+}
+
+.b1 {
+    padding: 10px;
+}    
+.t12{
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: -400px;
+    left: 50px;        
+}   
+
+}    
+
+
 
 .i1 {
     font-family: 'Segoe UI';
@@ -464,7 +636,21 @@ hr {
 
 }
 
+@media (min-width: 1920px) {  /* for Desktops */
+    .t12{
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: -700px;
+        left: 350px;        
+    }   
+    .Ad5{
+        font-size:xx-large;
+       
+    
+    }
 
+}
+      
 
 
 
