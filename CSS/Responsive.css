@@ -272,17 +272,25 @@
             }
 
 
+        
 
-
-            
+           
 /* Boots page*/
-
-@media (min-width: 768px) { /* for ipad */
+.t13 {
+    font-family: 'Segoe UI';  
+    position: absolute;
+    top: -160px;
+    left: 0px;    
+}
+.Ad1{
+    font-size:larger;
+}
+@media (min-width: 768px) {      /* for ipad */
     .t13{
         font-family: 'Segoe UI';
         position: absolute;
-        top: -315px;
-        left: 0px;        
+        top: -300px;
+        left: 10px;        
   }
 
   .Ad1{
@@ -295,8 +303,8 @@
         .t13{
             font-family: 'Segoe UI';
             position: absolute;
-            top: -380px;
-            left: 0px;        
+            top: -400px;
+            left: 10px;        
       }
     
       .Ad1{
@@ -310,7 +318,7 @@
                 font-family: 'Segoe UI';
                 position: absolute;
                 top: -500px;
-                left: 50px;        
+                left: 200px;        
           }
         
           .Ad1{
@@ -322,7 +330,7 @@
                 .t13{
                     font-family: 'Segoe UI';
                     position: absolute;
-                    top: -700px;
+                    top: -900px;
                     left: 350px;        
               }
             
@@ -331,6 +339,7 @@
                  }
               
                 }
+            
 
 
 
