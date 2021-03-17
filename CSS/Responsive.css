@@ -4,17 +4,34 @@
     max-width: 100%;
   height: auto;
  }
+
+ .c1 img {
+    max-width: 100%;
+    height: auto;
+ justify-content: center;
+ }
+
  
  @media (min-width: 1200px) { 
      .carousel-inner img{
          width: 1350px;
      height: 500px;
      }
+     .c1 img {
+        max-width: 100%;
+        height: auto;
+     justify-content: center;
+     }
  }
  @media (min-width: 1920px) { 
      .carousel-inner img{
          width: 1920px;
      height: 1080px;
+     }
+     .c1 img {
+        max-width: 100%;
+        height: auto;
+     justify-content: center;
      }
  }
  @media (min-width: 768px) { /* for devices above 768px */
@@ -24,7 +41,10 @@
         max-width: 100%;
     }
     
+    
 }
+
+
 
 
 
