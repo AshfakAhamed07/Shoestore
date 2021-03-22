@@ -42,8 +42,14 @@
     text-align: center;
 }
 
+.f1 i:hover {    /*Hover effect on Social media icons*/
+transform: translate(0,-10px);
+background-color: #CC021C;
+}
 
-
+.footer-widget  a:hover{
+    background-color:#011236;
+}
 
 
 
@@ -84,35 +90,7 @@
     left: 110px;
 }
 
-.t4 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top: 130px;
-    left: 100px;
-    
-}
 
-.t5 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top: 430px;
-    left: 100px;
-
-}
-
-.t6 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top: -450px;
-    left: 50px;
-}
-.t7 {
-    font-family: 'Segoe UI';
-    position: absolute;
-    top:-120px;
-    left: 50px;
-
-}
 .text1{
     font-size:x-large;
 }
@@ -127,7 +105,23 @@
      height: auto; 
 }
 
+.ads .t4:hover {
+    background-color:#011236;
+}
 
+.ads .t5:hover {
+    transform: translate(1.2);
+    background-color:#011236;
+}
+
+.ads .t6:hover {
+    transform: translate(1.2);
+    background-color:#011236;
+}
+.ads .t7:hover {
+    transform: translate(1.2);
+    background-color:#011236;
+}
 
 
 
